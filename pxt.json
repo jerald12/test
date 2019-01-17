@@ -1,0 +1,25 @@
+{
+    "name": "test3",
+    "version": "0.0.0",
+    "description": "The three test!!!",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "udriver_pca9685.h",
+        "extension.cpp",
+        "extension.ts",
+        "shims.d.ts",
+        "enums.d.ts"
+    ],
+    "testFiles": [
+        "utest/utest.h",
+        "utest/utest.c",
+        "test.cpp",
+        "test.ts"
+    ],
+    "public": false,
+    "license": "MIT"
+}
